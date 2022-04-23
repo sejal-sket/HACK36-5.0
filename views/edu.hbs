@@ -24,43 +24,37 @@
             <li>
                 <a href="/">Home</a>
             </li>
+            {{#if user}}
+            <li>
+                <a href="/profile">Profile</a>
+            </li>
+            <li>
+                <a href="/auth/logout">Log-Out</a>
+            </li>
+            {{else}}
             <li>
                 <a href="/login">Login</a>
             </li>
             <li>
                 <a href="/register">Register</a>
             </li>
+            {{/if}}
 
         </ul>
 
     </nav>
 
+    {{#if user}}
     <div class="container mt-4">
-        <div class="card" >
-            <div class="card-header">
-                Login Form
-            </div>
-            <div class="card-body">
-                <form action="/auth/login" method="POST">
-                  
-
-                    <div class="mb-3">
-                        <label for="email" class="form-label">E-Mail</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
-                    <div class="mb-3 f">
-                        <label for="password" >Password</label>
-                        <input type="password" class="form-control" id="password" name="password">
-                    </div>
-                   
-                    <button type="submit" class="btn btn-primary">Login</button>
-                </form>
-            </div>
-        </div>
-    {{#if message}}
-    <h4 class="alert alert-danger mt-4">{{message}}</h4>
-    {{/if}}
+        <h1>Education</h1>
     </div>
+
+    {{else}}
+    
+
+    {{/if}}
+
+
 </body>
 
 </html>

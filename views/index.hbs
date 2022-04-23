@@ -17,7 +17,7 @@
         crossorigin="anonymous"></script>
 
     <nav>
-        <h4>Node My-SQL</h4>
+        <h4>HeEdLi</h4>
 
 
         <ul>
@@ -25,7 +25,7 @@
                 <a href="/">Home</a>
             </li>
             {{#if user}}
-             <li>
+            <li>
                 <a href="/profile">Profile</a>
             </li>
             <li>
@@ -44,8 +44,50 @@
 
     </nav>
 
+    {{#if user}}
     <div class="container mt-4">
-        <div class="card" >
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-4 ">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/healthh.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <p class="card-text">It's not what you say, but what you do.
+                            He_Ed_Li provides our user with Nutrient tracking, med reminders, and many more features..
+                        </p>
+                        <a href="/health" class="btn btn-primary">H</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/educ.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Education</h5>
+                        <p class="card-text">Update your profile with all you know, help others in need.
+                            with books you will like to share.</p>
+                        <a href="/edu" class="btn btn-primary">E</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="/lifee.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lifestyle</h5>
+                        <p class="card-text">Monitors daily movement, Choose when you want to go to mess,
+                            Split money between friends, order goods.....</p>
+                        <a href="/life" class="btn btn-primary">L</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{else}}
+    <div class="container mt-4">
+        <div class="card">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -53,9 +95,14 @@
                     card's content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
+
         </div>
 
     </div>
+
+    {{/if}}
+
+
 </body>
 
 </html>
