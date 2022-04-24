@@ -1,6 +1,7 @@
 # He-Ed-Li
 
 <h1 align="center">He-Ed-Li</h1>
+<h6 align="center">Health-Eductaion-Lifestyle</h6>
 <p align="center">
 </p>
 
@@ -22,10 +23,12 @@
 ## Table of Contents:
 
 ## Technology Stack:
-  1) Flutter
-  2) Google Collab
-  3) github repo : Kasra1377/calories-burned-prediction
-  4) Machine Learning
+  1) NodeJS
+  2) ExpressJS
+  3) MySQL
+  4) jsonwebtoken
+  5) github repo : Kasra1377/calories-burned-prediction
+  6) Machine Learning
   
 
 ## Contributors:
