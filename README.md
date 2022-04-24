@@ -24,7 +24,7 @@
 ## Technology Stack:
   1) Flutter
   2) Google Collab
-  3) JavaFX
+  3) github repo : Kasra1377/calories-burned-prediction
   4) Machine Learning
   
 
