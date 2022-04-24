@@ -5,6 +5,7 @@ const { route } = require("express/lib/application");
 const router= express.Router();
 router.post('/register' ,authController.register);
 router.post('/login' ,authController.login);
+router.post('/book' ,authController.book);
 router.get('/logout',authController.logout)
 
 module.exports=router;

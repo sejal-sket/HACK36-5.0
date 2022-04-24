@@ -17,6 +17,7 @@ router.get('/login', (req, res) => {
     res.render("login");
 
 });
+
 router.get('/health', authController.isLoggedIn, (req, res) => {
     if (req.user) {
         console.log(req.message);

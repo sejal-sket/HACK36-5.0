@@ -21,30 +21,6 @@
   
   
 ## Table of Contents:
-  For Students (Health):<br> 
-    A chatbot which helps in dispensary contacts of all the doctors  with appointment booking .
-    Nutrient Tracking with ML.
-    Meds Reminder.
-
-  For Students (Education): <br>
-    A profile section is created where the students can reach others.
-    Students can update their strong and weak topics in studies so that each one can  help each other at time of exams.
-    Students can upload the data about the books they have and can lend.
-
-  For Students (Lifestyle): <br>
-    ML to monitor daily movement and recommend extra calories to burn.
-    Money Splittage between friends to keep things in hand.
-    Local vendors delivering goods.
-
-  For Admin (Lifestyle): <br>
-    Food wastage controlled by tracking the food consumption using Random-Forest-Regressor.
-    Nutrient Enrichment of students.
-    Bulk food reviews.
-    
-  Food Wastage control: <br>
-    Accurate prediction of amount of food to be cooked by using Random- Forest -Regressor(ML algo). It keeps in mind the number of students who approved to come to         eat, no. of students arrived, food consumed, food cooked and predicts the amount to be cooked.
-
-
 
 ## Technology Stack:
   1) NodeJS
